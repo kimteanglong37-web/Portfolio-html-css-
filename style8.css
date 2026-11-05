@@ -1,0 +1,183 @@
+.all{
+    /* background-color:blue; */
+    overflow:hidden;
+    width: 700px;
+    height: 600px;
+    margin: auto;
+    padding: 20px;
+}
+.header{
+    /* background-color: greenyellow; */
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    padding:10px;
+    margin: auto;
+    float: left;
+    
+    
+}
+.navbar{
+    background-color:fuchsia;
+    width: 100%;
+    height: 2px;
+    box-sizing: border-box;
+    padding:1px;
+    margin:auto;
+    float:left;
+    margin-top: -7px;
+}
+.header .name{
+    color:black;
+    justify-content: center;
+    display: flex;
+    gap:60px;
+    height: 100px;
+    align-items: center;
+    
+
+}
+.footer{
+    /* background-color:aliceblue; */
+    width: 20%;
+    display: flex;
+    margin-top: -70px;
+    margin-left: 10px;
+}
+.j{
+    color:black;
+    font-size: 30px;
+}
+.y{
+    color:fuchsia;
+    font-size: 30px;
+}
+.m{
+    font-size: 30px;
+}
+.talk{
+    /* background-color: aqua; */
+    width: 10%;
+
+}
+.mid{
+    /* background-color: aqua; */
+    width: 40%;
+    margin-top:20px;
+    box-sizing: border-box;
+    padding:20px;
+    float: left;
+}
+.s{
+    color: fuchsia;
+
+}
+.one{
+    display:flex;
+    font-size: 30px;
+    gap:10px;
+}
+.l{
+    font-size: 25px;
+    margin-top:-15px;
+}
+.k{
+    font-size: 15px;
+}
+.two{
+    /* background-color: brown; */
+    width: 40%;
+    height: 70px;
+    box-sizing: border-box;
+    padding: 20px;
+    float:left;
+    margin-top: 300px;
+    margin-left: -280px;
+}
+.hire,.project{
+    font-size: 15px;
+    border:2px solid fuchsia;
+    border-radius: 15px;  
+    width: 100px;  
+    height: 30px;
+}
+.hire{
+    background-color: fuchsia;
+    color:aliceblue;
+    
+}
+.project{
+    color:fuchsia;
+    margin-left: 25px;
+}
+.hire,.project{
+    box-shadow:1px 3px 5px gray;
+    transition:0.2s;
+    cursor: pointer;
+}
+.hire:hover,.project:hover{
+    transform:scale(1.1);
+}
+.three{
+    /* background-color: blueviolet; */
+    width: 110%;
+    height: 70px;
+    box-sizing: border-box;
+    padding:20px;
+    margin-top: 50px;
+    float:left;
+    margin-left: -10px;
+}
+.tele{
+    width: 16%;
+}
+.fb{
+    width: 20%;
+    margin-left:40px;
+}
+.instagram{
+    width: 17%;
+    margin-left:40px;
+    
+}.fb:hover,.instagram:hover,.tele:hover{
+    transform:scale(1.1); 
+}
+.fb,.instagram,.tele{
+   
+    transition:0.2s;
+    cursor: pointer;
+}
+.four{
+    /* background-color: aqua; */
+    width: 400px;
+    height: 450px;
+    margin-top:-450px;
+    margin-left:280px;
+    float:left;
+    box-sizing: border-box;
+}
+.mypic{
+    width: 300px;
+    margin-left:30px;
+    margin-top:-5px;
+}
+.mypic:hover{
+     transform:scale(1.02); 
+}
+.mypic{
+     transition:0.2s;
+    cursor: pointer;
+    filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.25));
+}
+.home,.Portfolio,.Contact,.About{
+    transition:0.2s;
+    cursor: pointer;
+}
+.home:hover,.About:hover,.Contact:hover,.Portfolio:hover{
+    color:fuchsia;
+}
+.home{
+     color: fuchsia;
+    border-bottom: 2px solid fuchsia;
+    padding-bottom: 0px;
+}
